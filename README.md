@@ -131,7 +131,7 @@ int main(void) {
 
 ## References
 
- - ## 📚 References
+ - ## References
 
 - [STM32F407 Reference Manual (RM0090)](https://www.st.com/resource/en/reference_manual/dm00031020-stm32f405415-stm32f407417-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)  
   Detailed technical documentation for the STM32F407 microcontroller, including peripheral registers and memory maps.
