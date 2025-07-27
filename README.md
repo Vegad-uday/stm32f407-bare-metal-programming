@@ -1,6 +1,4 @@
 # stm32f407-bare-metal-programming
-Bare-metal STM32F407 programming in C without HAL. Learn how to configure peripherals like UART, Timer, RTC, PWM, ADC, I2C, SPI, and Interrupts using direct register access. exploring low-level embedded systems.
-# stm32f407-bare-metal-programming
 
 This repository contains bare-metal drivers for STM32F407, written in C using STM32CubeIDE. Each module directly accesses registers without relying on HAL or STM32 Standard Peripheral Libraries. The primary goal is to provide learning register-level (bare-metal) embedded programming.
 
@@ -55,7 +53,6 @@ Each file in this repository implements a peripheral driver or interrupt mechani
 
 ---
 
-You said:
 ## Example main.c Structure
 
 ```
@@ -97,6 +94,7 @@ int main(void) {
         // Application loop
     }
 }
+
 ```
 
 ## How to Use in STM32CubeIDE
@@ -130,8 +128,6 @@ int main(void) {
   3. You can expand each module with your own abstraction layer.
 
 ## References
-
- - ## References
 
 - [STM32F407 Reference Manual (RM0090)](https://www.st.com/resource/en/reference_manual/dm00031020-stm32f405415-stm32f407417-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)  
   Detailed technical documentation for the STM32F407 microcontroller, including peripheral registers and memory maps.
