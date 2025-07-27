@@ -146,7 +146,7 @@ int main(void) {
   Full datasheet for the MPU6500 6-axis accelerometer and gyroscope, interfaced via I2C.
 
 
-##This project is part of my learning journey into bare-metal programming on STM32F407. I’ve written these drivers by directly working with registers, without using HAL or libraries, to better understand how microcontrollers work under the hood.
+This project is part of my learning journey into bare-metal programming on STM32F407. I’ve written these drivers by directly working with registers, without using HAL or libraries, to better understand how microcontrollers work under the hood.
 
 Since I'm still learning, I’d really appreciate any feedback, suggestions, or corrections from more experienced developers.
 
